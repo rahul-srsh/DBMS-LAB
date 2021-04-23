@@ -1,0 +1,1 @@
+select count(report_num) CNT from car c,participated p where c.reg_num=p.reg_num and model='Lancer'
